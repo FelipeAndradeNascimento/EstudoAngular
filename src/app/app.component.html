@@ -481,3 +481,10 @@
 <!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
+<!-- * * * * * * * * * * * and here, begins the FORM (call Link)* * * * * * * * * * * -->
+
+<h2>Formulario de nova Tranferencia:</h2>
+<app-novaTransferencia (aoTransferir)="transferencia($event)"></app-novaTransferencia>
+
+<p> * Valor => {{ objetoTransferencia.valor }}</p>
+<p> * Destino => {{ objetoTransferencia.destino }}</p>
